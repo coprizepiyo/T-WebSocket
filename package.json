@@ -1,0 +1,23 @@
+{
+  "name": "t-websocket",
+  "version": "1.0.0",
+  "description": "chat room",
+  "main": "index.js",
+  "scripts": {
+    "sserver": "node server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coprizepiyo/T-WebSocket.git"
+  },
+  "author": "Teamus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coprizepiyo/T-WebSocket/issues"
+  },
+  "homepage": "https://github.com/coprizepiyo/T-WebSocket#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^2.0.1"
+  }
+}
