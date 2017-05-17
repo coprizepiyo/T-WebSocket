@@ -14,6 +14,6 @@ io.on('connection', function (socket) {
 	socket.emit('news', { hello: 'world' });
 });
 
-app.listen(2222, function () {
+http.listen(2222, function () {
 	console.log('server is running on port 2222');
 }) 
